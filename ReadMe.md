@@ -4,10 +4,10 @@ Dette repository indeholder noter og opgaver til 2. semester på DMU.
 
 ## Indeks
 ### Noter
-- [Begynderguide til Objektorienteret Programmering i C#](./Noter/Begynderguide til Objektorienteret Programmering i Csharp.md)
-- [Hvad er god objektorienteret design](./Noter/Hvad%20er%20god%20objektorienteret%20design.md)
-- [Hvordan nedbryder man en systembeskrivelse til et objektorienteret system der kan implementeres med c#](./Noter/Hvordan%20nedbryder%20man%20en%20systembeskrivelse%20til%20et%20objektorienteret%20system%20der%20kan%20implementeres%20med%20Csharp.md)
-- [Kan du hjælpe mig med at forstå SOLID principperne](./Noter/Kan%20du%20hj%C3%A6lpe%20mig%20med%20at%20forst%C3%A5%20solid%20principperne.md)
+- [Begynderguide til Objektorienteret Programmering i C#](./Noter/Begynderguide-til-Objektorienteret-Programmering-i-Csharp.md)
+- [Hvad er god objektorienteret design](./Noter/Hvad-er-god-objektorienteret-design.md)
+- [Hvordan nedbryder man en systembeskrivelse til et objektorienteret system der kan implementeres med c#](./Noter/Hvordan-nedbryder-man-en-systembeskrivelse-til-et-objektorienteret-system-der-kan-implementeres-med-Csharp.md)
+- [Kan du hjælpe mig med at forstå SOLID principperne](./Noter/Kan-du-hjælpe-mig-med-at-forstå-solid-principperne.md)
 
 ### Opgaver
 
