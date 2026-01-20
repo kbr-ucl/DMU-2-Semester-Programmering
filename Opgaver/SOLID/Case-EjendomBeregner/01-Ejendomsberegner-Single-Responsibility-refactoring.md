@@ -1,4 +1,4 @@
-# Egendomsberegner - Single Responsibility refactoring
+# Ejendomsberegner - Single Responsibility refactoring
 
 
 

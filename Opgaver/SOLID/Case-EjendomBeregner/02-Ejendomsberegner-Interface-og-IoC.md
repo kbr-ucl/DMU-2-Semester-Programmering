@@ -1,4 +1,4 @@
-# Egendomsberegner - Interface og IoC
+# Ejendomsberegner - Interface og IoC
 
 
 
