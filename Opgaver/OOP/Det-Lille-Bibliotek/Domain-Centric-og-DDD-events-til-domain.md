@@ -47,12 +47,12 @@ public class UdlånUseCase
     }
 
     // Dette er metoden, der bliver kaldt, når brugeren trykker på knappen
-    public void LånAfBog(int medlemsId, int bogId)
+    public void LånAfBog(int medlemsnummer, string isbn)
     {
         // TRIN 1: Hent data (Rehydrering af objekter)
         // Vi henter domæne-objekterne op fra databasen baseret på ID.
-        var medlem = _medlemsRepository.HentPåId(medlemsId);
-        var bog = _bogRepository.HentPåId(bogId);
+        var medlem = _medlemsRepository.Hent(medlemsnummer);
+        var bog = _bogRepository.Hent(isbn);
 
         // Validering: Findes de overhovedet?
         if (medlem == null) throw new Exception("Medlem ikke fundet");
@@ -75,10 +75,9 @@ public class UdlånUseCase
         }
 
         // TRIN 3: Gem ændringer (Persistering)
-        // Nu har objekterne ændret sig (bogen er 'udlånt', medlemmet har et ID i sin liste).
+        // Nu har objekterne ændret sig (bogen er 'udlånt', medlemmet har et bogen i sin liste).
         // Vi skal gemme den nye tilstand i databasen.
-        _bogRepository.Gem(bog);
-        _medlemsRepository.Gem(medlem);
+        _medlemsRepository.Opdater(medlem);
         
         Console.WriteLine("Bogen er nu udlånt!");
     }

@@ -60,7 +60,7 @@ Biblioteket har brug for at vide, hvem der interagerer med bøgerne.
 - **Egenskaber (Attributter):**
   - `Navn` (Teksten nævner: "Hvert medlem har et navn")
   - `Medlemsnummer` (Teksten nævner: "og et medlemsnummer")
-  - `AktuelleLånteBøger`: List af de bøger medlemmet har lånt i øjeblikket.
+  - `AktueltLånteBøger`: List af de bøger medlemmet har lånt i øjeblikket.
 - **Adfærd (Metoder):**
   - `LånBog(Bog)`: Handlingen hvor medlemmet tager en bog.
   - `AfleverBog(Bog)`: Handlingen hvor medlemmet returnerer en bog.
@@ -73,26 +73,26 @@ Biblioteket har brug for at vide, hvem der interagerer med bøgerne.
 classDiagram
     %% Definition af klassen Bog
     class Bog {
-        +String titel
-        +String forfatter
-        +String isbn
-        +boolean erUdlånt
+        +string Isbn
+        +string Forfatter
+        +string Titel
+        +boolean ErUdlånt
         +Udlån() void
         +Aflever() void
     }
 
     %% Definition af klassen Medlem
     class Medlem {
-        +String navn
-        +int medlemsnummer
-        +IReadOnlyCollection<Bog> LånteBøgerListe
+        +int Medlemsnummer
+        +string Navn
+        +IReadOnlyCollection<Bog> AktueltLånteBøger
         +LånBog(Bog bog) void
         +AfleverBog(Bog bog) void
     }
 
     %% Relationen mellem klasserne
     %% Et medlem kan låne 0 eller flere bøger
-    Medlem "1" --> "0..*" Bog : Låner >
+    Medlem "0" --> "0..*" Bog : Låner
 ```
 
 
