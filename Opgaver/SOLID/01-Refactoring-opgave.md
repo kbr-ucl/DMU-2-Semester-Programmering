@@ -86,22 +86,11 @@ Du må gerne:
 - lave strategier for betaling
 - lave repositories
 - lave services
-- lave validators
 
 **Du bestemmer selv arkitekturen — bare den følger SOLID.**
 
-------
-
-# 📦 **Bonus: Ekstra krav (valgfrit)**
-
-Hvis du vil udfordre dig selv:
-
-- Tilføj logging
-- Tilføj flere betalingsmetoder
-- Tilføj mulighed for at sende SMS i stedet for e-mail
-- Tilføj unit tests (du behøver ikke skrive dem, bare design til det)
-
-------
 
 
+## Hint:
 
+Dependency injection kan være svært at finde ud af på egen hånd. **Der er hjælp at hente her: [IoC: En kort intro](https://github.com/kbr-ucl/DMU-2-Semester-Programmering/blob/main/Noter/IoC-kort-intro.md)**
