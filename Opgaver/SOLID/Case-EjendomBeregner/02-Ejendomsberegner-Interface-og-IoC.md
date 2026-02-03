@@ -4,7 +4,7 @@
 
 ## Opgaven
 
-Opgaven består i at refaktor "Egendomsberegner - Single Responsibility refactoring"
+Opgaven består i at refaktor "Ejendomsberegner - Single Responsibility refactoring"
 
 Minimums krav: 
 
