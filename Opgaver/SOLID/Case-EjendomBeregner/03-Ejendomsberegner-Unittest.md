@@ -22,7 +22,7 @@ Minimums krav:
 Se [Hvad er adapter-mønstret?](../../../Noter/Hvad-er-adapter-moenstret.md)
 
 - Anvend Moq
-- Lav en adapter indkaspling af 
+- Lav en adapter indkapsling af 
 	- ```c#
     string indhold = File.ReadAllText("sti/til/fil.txt");
 	  ```
