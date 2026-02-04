@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Ejendomsberegner.Core/Ejendomsberegner.Core.csproj" Id="67b683ac-173c-4229-af51-1a8e5501916e" />
+  <Project Path="Ejendomsberegner.Test/Ejendomsberegner.Test.csproj" Id="7c210ee6-90ad-45ff-983f-040aaba6c1b0" />
+  <Project Path="EjendomsberegnerIoC/EjendomsberegnerIoC.csproj" />
+</Solution>

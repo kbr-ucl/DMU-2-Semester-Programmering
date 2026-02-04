@@ -4,7 +4,7 @@
 
 ## Opgaven
 
-Opgaven består i at lave Unittest til "Ejendomsberegner - Interface og IoC" med xUnit
+Opgaven består i at lave Unittest til "Ejendomsberegner - Interface og IoC" med xUnit v3
 
 Minimums krav: 
 
