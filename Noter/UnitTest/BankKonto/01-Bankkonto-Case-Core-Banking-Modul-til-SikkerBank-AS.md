@@ -44,10 +44,3 @@ Systemet skal understøtte følgende funktionalitet:
 2. En test-suite, der dækker scenarierne.
 3. Et simpelt konsol-program, der demonstrerer brugen af klassen "live".
 
-------
-
-### Hvordan du bruger denne tekst
-
-Når du præsenterer, kan du starte med at sige:
-
-> *"Jeg har taget udgangspunkt i denne case fra SikkerBank A/S, hvor hovedproblemet var manglende dataintegritet – altså at man kunne lave overtræk og oprette ugyldige konti. Min løsning fokuserer derfor benhårdt på **Indkapsling** for at løse netop disse problemer..."*

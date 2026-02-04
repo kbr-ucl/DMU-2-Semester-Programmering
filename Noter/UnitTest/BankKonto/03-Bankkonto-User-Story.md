@@ -70,14 +70,3 @@ Nedenstående er vist fire ***User Stories for domænebegrebet "Bankkonto"***
 - **AC4.3:** Hvis en konto er frosset, skal forsøg på **udbetaling** afvises med en fejlmeddelelse.
   - *(Mapper til tests: `..._WhenAccountIsFrozen_ShouldThrowException`)*
 
-------
-
-### Sådan præsenterer du det
-
-Hvis du skal til eksamen eller lave en demo, kan du sige følgende:
-
-1. *"Her er kravspecifikationen i form af User Stories."* (Vis ovenstående).
-2. *"Her er min domæne-logik, der implementerer disse regler."* (Vis `BankAccount` klassen).
-3. *"Og her er mine Unit Tests, der beviser, at acceptkriterierne faktisk er overholdt - især edge cases som negative beløb og frosne konti."* (Kør xUnit testene).
-
-**Skal jeg hjælpe dig med at lave en simpel Console Application (`Program.cs`), der binder det hele sammen, så du kan køre det manuelt også?**

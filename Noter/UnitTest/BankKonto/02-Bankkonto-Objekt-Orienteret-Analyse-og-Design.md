@@ -1,6 +1,6 @@
 # Bankkonto - Objekt Orienteret Analyse & Design
 
-Her er en beskrivelse af den **OOA/D (Objekt Orienteret Analyse & Design)** proces, der logisk leder frem til `BankAccount` klassen. Du kan bruge denne struktur til at forklare din tankegang.
+Her er en beskrivelse af den **OOA/D (Objekt Orienteret Analyse & Design)** proces, der logisk leder frem til `BankAccount` klassen.
 
 ------
 
