@@ -10,42 +10,79 @@ ORCID: https://orcid.org/0000-0002-8974-2718
 
 ## Indholdsfortegnelse
 [2 Indledning](##indledning)
+
 [3 Baggrund og motivation](##baggrund-og-motivation)
+
 [3.1 Problemet med klassisk lagdelt arkitektur](##problemet-med-klassisk-lagdelt-arkitektur)
+
 [3.2 Onion Architecture](##onion-architecture)
+
 [3.3 Clean Architecture](##clean-architecture)
+
 [3.4 Domain-Driven Design (DDD)](##domain-driven-design-ddd)
+
 [4 Arkitekturoversigt](##_Toc221365804)
+
 [4.1 Command Query Separation (CQS)](##command-query-separation-cqs)
+
 [4.1.1 Princippet](##princippet)
+
 [4.1.2 CQS i Use Case-laget](##cqs-i-use-case-laget)
+
 [4.1.3 CQS vs. CQRS – hvornår eskalere?](##cqs-vs.-cqrs-hvornår-eskalere)
+
 [5 Domain-laget](##domain-laget)
+
 [5.1 Entity-klasser med DDD](##entity-klasser-med-ddd)
+
 [5.2 Value Objects](##value-objects)
+
 [5.3 Domain Services](##domain-services)
+
 [6 Use Case-laget](##use-case-laget)
+
 [6.1 Strukturen af et Use Case](##strukturen-af-et-use-case)
+
 [6.2 Repository-interfaces](##repository-interfaces)
+
 [7 Facade-laget](##facade-laget)
+
 [7.1 Formålet med Facade-laget](##formålet-med-facade-laget)
+
 [7.2 Interfaces i Facade-laget](##interfaces-i-facade-laget)
+
 [7.3 DTO’er (Data Transfer Objects)](##dtoer-data-transfer-objects)
+
 [8 Infrastructure-laget](##infrastructure-laget)
+
 [8.1 Repository-implementering](##repository-implementering)
+
 [8.2 Query-handler implementering (CQS)](##query-handler-implementering-cqs)
+
 [8.3 Eksterne systemer](##eksterne-systemer)
+
 [9 Afhængighedsregler og projektstruktur](##afhængighedsregler-og-projektstruktur)
+
 [9.1 Dependency Rule](##dependency-rule)
+
 [9.2 Projektstruktur i .NET](##projektstruktur-i-.net)
+
 [10 Testbarhed](##testbarhed)
+
 [10.1 Domain-tests](##domain-tests)
+
 [10.2 Use Case-tests med Moq](##use-case-tests-med-moq)
+
 [10.3 Query-handler-tests med Moq](##query-handler-tests-med-moq)
+
 [11 Fordele og overvejelser](##fordele-og-overvejelser)
+
 [11.1 Fordele](##fordele)
+
 [11.2 Overvejelser](##overvejelser)
+
 [12 Konklusion](##konklusion)
+
 [13 Kilder](##kilder)
 
 ## Indledning
