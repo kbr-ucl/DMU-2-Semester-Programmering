@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pdftotext:*)",
+      "Bash(pip install:*)",
+      "Bash(python:*)",
+      "Bash(where:*)",
+      "Bash(py:*)",
+      "Bash(conda --version:*)",
+      "Bash(\"/c/ProgramData/anaconda3/python.exe\" --version)",
+      "Bash(\"/c/Users/kbr8776/anaconda3/python.exe\" --version)",
+      "Bash(\"/c/Users/kbr8776/miniconda3/python.exe\" --version)",
+      "Bash(node:*)",
+      "Bash(npm --version:*)",
+      "Bash(npm install:*)",
+      "Bash(ls:*)"
+    ]
+  }
+}
