@@ -64,6 +64,7 @@ Dette repository indeholder noter og opgaver til 2. semester på DMU.
 
 #### Noter
 - [Clean Architecture](./Noter/Clean-Architecture.md)
+- [DDD Aggregate Root og Entity og Value Object](./Noter/DDD_Aggregate_Root_og_Entity_og_Value_Object.md)
 - [Hvad er adapter mønstret](./Noter/Hvad-er-adapter-moenstret.md)
 - [IoC - Kort intro](./Noter/IoC-kort-intro.md)
 - [Pre-and-Post-Conditions](./Noter/Pre-and-Post-Condtions.md)
