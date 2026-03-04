@@ -2,6 +2,7 @@
 
 Dette repository indeholder noter og opgaver til 2. semester på DMU.
 
+
 ## Indeks
 
 ### OOP (Object-Oriented Programming)
@@ -67,6 +68,12 @@ Dette repository indeholder noter og opgaver til 2. semester på DMU.
 - [IoC - Kort intro](./Noter/IoC-kort-intro.md)
 - [Pre-and-Post-Conditions](./Noter/Pre-and-Post-Condtions.md)
 
+#### Podcasts
+- [01 - Afkobl din forretningslogik med Clean Architecture](./PodCast/Clean_Architecture/01_ Afkobl_din_forretningslogik_med_Clean_Architecture.mp3)
+- [02 - Opbyg domænelaget med Entities og Aggregates](./PodCast/Clean_Architecture/02_Opbyg_domænelaget_med_Entities_og_Aggregates.mp3)
+- [03 - CQS og Use Case orkestrering i softwarearkitektur](./PodCast/Clean_Architecture/03_ CQS_og_Use_Case_orkestrering_i_softwarearkitektur.mp3)
+- [04 - Rent Infrastructure-lag med EF Core 10](./PodCast/Clean_Architecture/04_Rent_Infrastructure-lag_med_EF_Core_10.mp3)
+
 #### Opgaver
 _(Ingen opgaver i denne kategori endnu)_
 
@@ -84,3 +91,11 @@ _(Ingen opgaver i denne kategori endnu)_
 
 #### Opgaver
 - [Lægehuset.dk - Opgave 01](./Opgaver/Semesterprojekt/Delopgaver/Lægehuset-dk-opgave-01.md)
+
+### Podcasts
+
+#### Clean Architecture
+- [01 - Afkobl din forretningslogik med Clean Architecture](./PodCast/Clean_Architecture/01_ Afkobl_din_forretningslogik_med_Clean_Architecture.mp3)
+- [02 - Opbyg domænelaget med Entities og Aggregates](./PodCast/Clean_Architecture/02_Opbyg_domænelaget_med_Entities_og_Aggregates.mp3)
+- [03 - CQS og Use Case orkestrering i softwarearkitektur](./PodCast/Clean_Architecture/03_ CQS_og_Use_Case_orkestrering_i_softwarearkitektur.mp3)
+- [04 - Rent Infrastructure-lag med EF Core 10](./PodCast/Clean_Architecture/04_Rent_Infrastructure-lag_med_EF_Core_10.mp3)
