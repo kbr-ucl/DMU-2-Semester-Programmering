@@ -65,6 +65,7 @@ Dette repository indeholder noter og opgaver til 2. semester på DMU.
 #### Noter
 - [Clean Architecture](./Noter/Clean-Architecture.md)
 - [DDD Aggregate Root og Entity og Value Object](./Noter/DDD_Aggregate_Root_og_Entity_og_Value_Object.md)
+- [DDD Entity vs. Aggregate Root](./Noter/DDD_Entity_vs_Aggregate_Root.md)
 - [Hvad er adapter mønstret](./Noter/Hvad-er-adapter-moenstret.md)
 - [IoC - Kort intro](./Noter/IoC-kort-intro.md)
 - [Pre-and-Post-Conditions](./Noter/Pre-and-Post-Condtions.md)
@@ -92,3 +93,11 @@ _(Ingen opgaver i denne kategori endnu)_
 
 #### Opgaver
 - [Lægehuset.dk - Opgave 01](./Opgaver/Semesterprojekt/Delopgaver/Lægehuset-dk-opgave-01.md)
+
+### Vejledende Løsninger
+
+- [01 Refactoring opgave - Vejledende løsning](./VejledendeLoesninger/01-Refactoring-opgave - løsning.md)
+- **Case-EjendomBeregner** – kodeløsninger i [`./VejledendeLoesninger/Case-EjendomBeregner/`](./VejledendeLoesninger/Case-EjendomBeregner/):
+  - EjendomsberegnerAfter (SRP-refaktorering)
+  - EjendomsberegnerIoC (Interface og IoC)
+  - EjendomsberegnerTest (Unittest)
