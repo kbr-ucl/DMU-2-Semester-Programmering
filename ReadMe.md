@@ -79,6 +79,11 @@ Dette repository indeholder noter og opgaver til 2. semester på DMU.
 #### Opgaver
 _(Ingen opgaver i denne kategori endnu)_
 
+### Blazor & Web
+
+#### Noter
+- [Blazor SSR vs. Blazor Server Interactivity i .NET 10](./Noter/blazor-ssr-vs-server-interactivity.md)
+
 ### UML & Design
 
 #### Noter
